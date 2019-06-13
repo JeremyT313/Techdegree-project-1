@@ -57,11 +57,12 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/detroit3.jpg') no-repeat center;
+  background: url('images/detroit3.jpg') no-repeat ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
-  background-position: 0% 36%;
+  background-position: 0% 30%;
+  height: 600px;
 }
 header {
   line-height: 1.5;
@@ -167,7 +168,7 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
-
+1
 /* Added CSS Content */
 .background-p {
   font-size: 1em;
@@ -175,7 +176,8 @@ a.social:hover {
 }
 
 .goals-img {
-  padding-left: 65px;
+  display: block;
+  margin: 0 auto;
 }
 
 .headers {
